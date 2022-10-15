@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [message, setMessage] = useState("Hello World");
+  const [message, setMessage] = useState("This message sending from useState");
   return (
     <div className="App">
       <h1>Hello World 🤟🏻</h1>
@@ -28,7 +28,7 @@ function App() {
           Decrease
         </button>
         <div>
-          <p>{message}</p>
+          <p>Message: {message}</p>
         </div>
       </div>
     </div>
