@@ -1,4 +1,4 @@
-Just using useState for counter. There is no any important thing.
+Just used useState for counter. There is no any important thing.
 
 ## Available Scripts
 
